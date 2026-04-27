@@ -1,0 +1,28 @@
+## Visual Studio Essentials
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+
+## Build Results
+[Tt]est[Rr]esults/
+[Pp]ublish/
+
+## NuGet Packages
+# (Usually, you don't want to upload the actual library files, just the config)
+*.nupkg
+packages/
+!packages/repository.config
+
+## Web/Frontend Clutter
+node_modules/
+.env
+.env.local
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
