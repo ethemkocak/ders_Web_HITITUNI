@@ -67,8 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\LoginPage.css" />
+    <Content Include="CSS\SigninPage.css" />
+    <Content Include="images\envelope-open-regular.png" />
+    <Content Include="images\lock-solid.png" />
+    <Content Include="images\user-solid.png" />
     <Content Include="Web.config" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="Anasayfa.aspx" />
+    <Content Include="SignInPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +85,20 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignInPage.aspx.cs">
+      <DependentUpon>SignInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignInPage.aspx.designer.cs">
+      <DependentUpon>SignInPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +110,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

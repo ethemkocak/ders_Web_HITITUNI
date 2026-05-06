@@ -11,26 +11,35 @@ namespace Web_1
 {
 
 
-    public partial class WebForm1
+    public partial class SignIn
     {
 
         /// <summary>
-        /// forml denetimi.
+        /// form1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm forml;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblGiris denetimi.
+        /// lblBaslik denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGiris;
+        protected global::System.Web.UI.WebControls.Label lblBaslik;
+
+        /// <summary>
+        /// txtEmail denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
         /// txtKullaniciAdi denetimi.
@@ -51,21 +60,21 @@ namespace Web_1
         protected global::System.Web.UI.WebControls.TextBox txtSifre;
 
         /// <summary>
-        /// btnGiris denetimi.
+        /// btnKayitOl denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGiris;
+        protected global::System.Web.UI.WebControls.Button btnKayitOl;
 
         /// <summary>
-        /// hlKayitol denetimi.
+        /// hlGirisYap denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlKayitol;
+        protected global::System.Web.UI.WebControls.HyperLink hlGirisYap;
     }
 }
