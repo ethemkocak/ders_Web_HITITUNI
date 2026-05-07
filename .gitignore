@@ -6,6 +6,7 @@
 *.suo
 *.sln.docstates
 *.userprefs
+Web.config
 
 ## Build Results
 [Tt]est[Rr]esults/

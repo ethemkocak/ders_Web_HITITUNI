@@ -68,14 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\LoginPage.css" />
-    <Content Include="CSS\SigninPage.css" />
+    <Content Include="CSS\SignupPage.css" />
     <Content Include="images\envelope-open-regular.png" />
     <Content Include="images\lock-solid.png" />
     <Content Include="images\user-solid.png" />
     <Content Include="Web.config" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Anasayfa.aspx" />
-    <Content Include="SignInPage.aspx" />
+    <Content Include="SignUpPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,16 +93,19 @@
     <Compile Include="Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SignInPage.aspx.cs">
-      <DependentUpon>SignInPage.aspx</DependentUpon>
+    <Compile Include="SignUpPage.aspx.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SignInPage.aspx.designer.cs">
-      <DependentUpon>SignInPage.aspx</DependentUpon>
+    <Compile Include="SignUpPage.aspx.designer.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ethemkk-001-site1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ethemkk-001-site1 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
