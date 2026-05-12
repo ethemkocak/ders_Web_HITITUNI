@@ -6,7 +6,8 @@
 *.suo
 *.sln.docstates
 *.userprefs
-Web.config
+
+
 
 ## Build Results
 [Tt]est[Rr]esults/
@@ -17,6 +18,7 @@ Web.config
 *.nupkg
 packages/
 !packages/repository.config
+Secrets.config
 
 ## Web/Frontend Clutter
 node_modules/

@@ -11,7 +11,7 @@ namespace Web_1
 {
 
 
-    public partial class SignIn
+    public partial class SignUp
     {
 
         /// <summary>

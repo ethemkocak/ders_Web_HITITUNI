@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Web_1.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Web_1.LoginPage" %>
 
 <!DOCTYPE html>
 
@@ -12,7 +12,7 @@
 <form id="forml" runat="server">
         <div class="divCss">
             
-            <asp:Label ID="lblGiris" runat="server" CssClass="lblGirisCss" Text="GİRİŞ SAYFASI" />
+            <asp:Label ID="lblGiris" runat="server" CssClass="lblGirisCss" Text="GİRİŞ YAP" />
             
             <asp:TextBox ID="txtKullaniciAdi" runat="server" CssClass="txtKullaniciAdiCss" placeholder="Kullanıcı Adı" />
            

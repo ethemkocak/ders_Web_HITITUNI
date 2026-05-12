@@ -11,7 +11,7 @@ namespace Web_1
 {
 
 
-    public partial class WebForm1
+    public partial class LoginPage
     {
 
         /// <summary>
